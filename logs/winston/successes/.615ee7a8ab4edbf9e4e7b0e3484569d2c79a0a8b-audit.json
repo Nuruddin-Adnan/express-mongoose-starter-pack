@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\successes\\.615ee7a8ab4edbf9e4e7b0e3484569d2c79a0a8b-audit.json",
+    "files": [
+        {
+            "date": 1692557873146,
+            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\successes\\YOURAPP_NAME-2023-21-08-00-success.log",
+            "hash": "197ee3e5770e75e78babfe30fd1639524edc7420fd1f5e1e8945eec46ffaf2db"
+        },
+        {
+            "date": 1692558063478,
+            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\successes\\YOURAPP_NAME-2023-21-08-01-success.log",
+            "hash": "7bc08fd55a64d51bebb1531763f662d2c08fb7c9b43f38d3530ff41b59dc667e"
+        },
+        {
+            "date": 1692561819657,
+            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\successes\\YOURAPP_NAME-2023-21-08-02-success.log",
+            "hash": "eafeef51e3f75d8127ce75dacd514a0ff39efd39e8452905f8b8be4fc816eeab"
+        }
+    ],
+    "hashType": "sha256"
+}

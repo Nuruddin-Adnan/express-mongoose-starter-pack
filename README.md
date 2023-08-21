@@ -44,7 +44,7 @@ To run this project, you will need to add the following environment variables to
 
 #### user
 
-```http
+```json
   GET api/v1/users/my-profile  see personal profile
   PATCH api/v1/users/my-profile update the profile information
   PATCH api/v1/users/${id} Admin can update the user
@@ -57,7 +57,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Auth
 
-```http
+```json
   GET api/v1/auth/login login a user
   POST api/v1/auth/signup signup a user
   POST api/v1/auth/refresh-token generate a new refresh token
@@ -66,7 +66,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Admin
 
-```http
+```json
   POST api/v1/admins/create-admin create an admin by super_admin or another admin
   POST api/v1/admins/login login a admin
   POST api/v1/admins/refresh-token generate a new refresh token

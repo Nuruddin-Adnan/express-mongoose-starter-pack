@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\a web\\Next Level Web Development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\.1b63fad55b36e4a988bdaf19bc8e2489ca450a60-audit.json",
+    "files": [
+        {
+            "date": 1692603221804,
+            "name": "F:\\a web\\Next Level Web Development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-13-error.log",
+            "hash": "3298cd8be9a973bd091fda00773d835568cb0caf273c31614c317ccbdb7141d2"
+        },
+        {
+            "date": 1692605930275,
+            "name": "F:\\a web\\Next Level Web Development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-14-error.log",
+            "hash": "1054f75c699cd36109c3825fda16e1360d9cad292a6d3e697858a3458593e3d7"
+        },
+        {
+            "date": 1692608895208,
+            "name": "F:\\a web\\Next Level Web Development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-15-error.log",
+            "hash": "682801c119f0adb578d16e5bcd0ae897b600091d087755150a1b844bf07a412d"
+        }
+    ],
+    "hashType": "sha256"
+}

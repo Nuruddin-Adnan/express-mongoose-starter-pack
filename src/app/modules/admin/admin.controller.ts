@@ -90,10 +90,23 @@ const updateMyProfile = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await AdminService.deleteAdmin(id);
+
+  sendResponse<IAdmin>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Admin deleate successfully !',
+    data: result,
+  });
+});
+
 export const AdminController = {
   createAdmin,
   loginUser,
   refreshToken,
   getMyProfile,
   updateMyProfile,
+  deleteAdmin,
 };

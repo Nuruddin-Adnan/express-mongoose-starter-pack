@@ -18,10 +18,10 @@ const createAdmin = async (payload: IAdmin): Promise<IAdmin> => {
 };
 
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
-  const { phoneNumber, password } = payload;
+  const { email, password } = payload;
 
-  // const isUserExist = await User.isUserExist(phoneNumber);
-  const isUserExist = await Admin.isUserExist(phoneNumber);
+  // const isUserExist = await User.isUserExist(email);
+  const isUserExist = await Admin.isUserExist(email);
 
   if (!isUserExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
@@ -36,15 +36,15 @@ const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
 
   //create access token & refresh token
 
-  const { _id, role, phoneNumber: phone } = isUserExist;
+  const { _id, role, email: emailAddress } = isUserExist;
   const accessToken = jwtHelpers.createToken(
-    { _id, role, phone },
+    { _id, role, emailAddress },
     config.jwt.secret as Secret,
     config.jwt.expires_in as string,
   );
 
   const refreshToken = jwtHelpers.createToken(
-    { _id, role, phone },
+    { _id, role, emailAddress },
     config.jwt.refresh_secret as Secret,
     config.jwt.refresh_expires_in as string,
   );
@@ -68,12 +68,12 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
     throw new ApiError(httpStatus.FORBIDDEN, 'Invalid Refresh Token');
   }
 
-  const { phone } = verifiedToken;
+  const { emailAddress } = verifiedToken;
 
   // tumi delete hye gso  kintu tumar refresh token ase
   // checking deleted user's refresh token
 
-  const isUserExist = await Admin.isUserExist(phone);
+  const isUserExist = await Admin.isUserExist(emailAddress);
   if (!isUserExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
   }
@@ -83,7 +83,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
     {
       _id: isUserExist._id,
       role: isUserExist.role,
-      phone: isUserExist.phoneNumber,
+      emailAddress: isUserExist.email,
     },
     config.jwt.secret as Secret,
     config.jwt.expires_in as string,
@@ -133,10 +133,19 @@ const updateMyProfile = async (
   return result;
 };
 
+const deleteAdmin = async (id: string): Promise<IAdmin | null> => {
+  if (!id) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Admin Not found');
+  }
+  const result = await Admin.findById(id);
+  return result;
+};
+
 export const AdminService = {
   createAdmin,
   loginUser,
   refreshToken,
   getMyProfile,
   updateMyProfile,
+  deleteAdmin,
 };

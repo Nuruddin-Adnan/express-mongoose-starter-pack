@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\.2eabf3547c5f0fdf6e69e33ee880a4d83ddd6e9a-audit.json",
+  "files": [
+    {
+      "date": 1692557873149,
+      "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-00-error.log",
+      "hash": "23851f4bc5feaa65fb90053a8dc2b042653700f3250e132bba1931a42dbfbb05"
     },
-    "auditLog": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\.2eabf3547c5f0fdf6e69e33ee880a4d83ddd6e9a-audit.json",
-    "files": [
-        {
-            "date": 1692557873149,
-            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-00-error.log",
-            "hash": "23851f4bc5feaa65fb90053a8dc2b042653700f3250e132bba1931a42dbfbb05"
-        },
-        {
-            "date": 1692558063481,
-            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-01-error.log",
-            "hash": "d1e5d6e37a987f8cd4f94a29d412169a5d226822b317cacf39a0d86682486b66"
-        },
-        {
-            "date": 1692561819661,
-            "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-02-error.log",
-            "hash": "5a75fa8d774643dd6cb225b96d49333e17300d445e790b6b257f22beffe978c2"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1692558063481,
+      "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-01-error.log",
+      "hash": "d1e5d6e37a987f8cd4f94a29d412169a5d226822b317cacf39a0d86682486b66"
+    },
+    {
+      "date": 1692561819661,
+      "name": "F:\\Next Level Web development\\projects\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-21-08-02-error.log",
+      "hash": "5a75fa8d774643dd6cb225b96d49333e17300d445e790b6b257f22beffe978c2"
+    }
+  ],
+  "hashType": "sha256"
 }

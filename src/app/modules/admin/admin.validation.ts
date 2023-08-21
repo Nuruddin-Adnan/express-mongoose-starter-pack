@@ -20,6 +20,9 @@ const createAdminZodSchema = z.object({
     phoneNumber: z.string({
       required_error: 'Phone number is required',
     }),
+    email: z.string({
+      required_error: 'Email Address is required',
+    }),
     address: z.string({
       required_error: 'Address is required',
     }),
@@ -37,6 +40,7 @@ const updateAdminZodSchema = z.object({
       })
       .optional(),
     phoneNumber: z.string().optional(),
+    email: z.string().optional(),
     address: z.string().optional(),
   }),
 });

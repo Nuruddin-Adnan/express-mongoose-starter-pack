@@ -36,6 +36,11 @@ const adminSchema = new Schema<IAdmin, AdminModel>(
       unique: true,
       required: true,
     },
+    email: {
+      type: String,
+      unique: true,
+      required: true,
+    },
     address: {
       type: String,
       required: true,
@@ -50,12 +55,9 @@ const adminSchema = new Schema<IAdmin, AdminModel>(
 );
 
 adminSchema.statics.isUserExist = async function (
-  phoneNumber: string,
+  email: string,
 ): Promise<IAdmin | null> {
-  return await Admin.findOne(
-    { phoneNumber },
-    { phoneNumber: 1, password: 1, role: 1 },
-  );
+  return await Admin.findOne({ email }, { email: 1, password: 1, role: 1 });
 };
 
 adminSchema.statics.isPasswordMatched = async function (
@@ -79,6 +81,6 @@ adminSchema.pre('save', async function (next: any) {
 });
 
 // Create an index for phoneNumber field
-// adminSchema.index({ phoneNumber: 1 }, { unique: true });
+adminSchema.index({ email: 1 }, { unique: true });
 
 export const Admin = model<IAdmin, AdminModel>('Admin', adminSchema);

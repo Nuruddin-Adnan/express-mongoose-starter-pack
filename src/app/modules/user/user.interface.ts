@@ -11,6 +11,7 @@ export type IUser = {
   };
   phoneNumber: string;
   email: string;
+  imgURL: string;
   address: string;
 };
 

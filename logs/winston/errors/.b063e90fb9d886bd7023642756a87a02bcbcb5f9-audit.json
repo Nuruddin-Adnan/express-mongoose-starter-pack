@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\Next Level Web development\\projects\\React Mongoose starter pack\\express-mongoose-starter-pack\\logs\\winston\\errors\\.b063e90fb9d886bd7023642756a87a02bcbcb5f9-audit.json",
+    "files": [
+        {
+            "date": 1694313048102,
+            "name": "F:\\Next Level Web development\\projects\\React Mongoose starter pack\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-10-09-08-error.log",
+            "hash": "f3f960d314b040621f3022a7624c4d86948c29b6cd759a9887b3a18d5a4ad7ef"
+        }
+    ],
+    "hashType": "sha256"
+}

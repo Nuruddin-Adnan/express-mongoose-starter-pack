@@ -21,9 +21,8 @@ const createUserZodSchema = z.object({
     email: z.string({
       required_error: 'Email address is required',
     }),
-    address: z.string({
-      required_error: 'Address is required',
-    }),
+    imgURL: z.string().optional(),
+    address: z.string().optional(),
   }),
 });
 
@@ -39,6 +38,7 @@ const updateUserZodSchema = z.object({
       .optional(),
     phoneNumber: z.string().optional(),
     email: z.string().optional(),
+    imgURL: z.string().optional(),
     address: z.string().optional(),
   }),
 });

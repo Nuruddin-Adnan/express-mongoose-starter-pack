@@ -33,16 +33,17 @@ const userSchema = new Schema<IUser, UserModel>(
     },
     phoneNumber: {
       type: String,
-      unique: true,
     },
     email: {
       type: String,
       unique: true,
       required: true,
     },
+    imgURL: {
+      type: String,
+    },
     address: {
       type: String,
-      required: true,
     },
   },
   {

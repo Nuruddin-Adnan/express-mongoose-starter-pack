@@ -1,0 +1,140 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\.1b4dc05a75dc63b7b3b7a4d1cc5c5427f618ed7e-audit.json",
+    "files": [
+        {
+            "date": 1696858796420,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-09-10-19-error.log",
+            "hash": "f203517ad9a5d240021bea4274d1d487b500938fe41b78e201ce8083263b08f7"
+        },
+        {
+            "date": 1696860394498,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-09-10-20-error.log",
+            "hash": "25b61404ea86f01855bb595a64c7189574a7ed7df415b4063bc11f125bd56a65"
+        },
+        {
+            "date": 1696875268537,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-10-10-00-error.log",
+            "hash": "250756ba12d6fd0720f5f85248b4dc4efeae0c59a671ab0f92aaae8c80f3f382"
+        },
+        {
+            "date": 1696946721793,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-10-10-20-error.log",
+            "hash": "92fd600301aa4bd6e5e9335840b64bf5ee1bcd0424b6414e3632f875e4541e44"
+        },
+        {
+            "date": 1696956401780,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-10-10-22-error.log",
+            "hash": "258d0437b322ca22171a3bd4b3c5eae80cb6159c0cfd0152beb1746d9732c502"
+        },
+        {
+            "date": 1696957521297,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-10-10-23-error.log",
+            "hash": "6f0b19fa9c4293cb711b84736468b68c1bd6dbeda3b087ecd85460e13d94f3fa"
+        },
+        {
+            "date": 1697006344927,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-12-error.log",
+            "hash": "3eceafde863e7438d1e96bff7c1950c71e2d957c6811a6618c9171fb2db830fe"
+        },
+        {
+            "date": 1697007885124,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-13-error.log",
+            "hash": "3fff1bc7ff720fb297eafde635bf3c90833717bf8a8ccfef6df825486fc19e10"
+        },
+        {
+            "date": 1697019476779,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-16-error.log",
+            "hash": "5b0e3c1e946ae069d27a4ca9bcc761cab781907d56f0e715b2635a6fb6153d17"
+        },
+        {
+            "date": 1697025598081,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-17-error.log",
+            "hash": "8d27e9681396738f503318c9fa62eb85c5911c33bd2895958203682286dce897"
+        },
+        {
+            "date": 1697031095357,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-19-error.log",
+            "hash": "84839d711fdc775ba7ee7f35a3c2ac0ad5a1c808212f395b70ceed676b8b9833"
+        },
+        {
+            "date": 1697035427548,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-20-error.log",
+            "hash": "ef3d7b1807e4a917b761773d76e5337f830f3ed33a00675ef809b9cc36bb279f"
+        },
+        {
+            "date": 1697039603289,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-21-error.log",
+            "hash": "670795ad54c88ad19e9ce4b99e404b7a29b1940a2cf4962a2e0e8bc0e01ad1ec"
+        },
+        {
+            "date": 1697045828875,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-11-10-23-error.log",
+            "hash": "0ce2c663eb36663adb8767a271daf5c35703d9e8c41bf90fc356b586f1097bfd"
+        },
+        {
+            "date": 1697047602854,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-12-10-00-error.log",
+            "hash": "5eca2d9453b1c5c16f5ce7d54f5aa517726eda5c1e0239515cdc0f54c7ad89a4"
+        },
+        {
+            "date": 1697050952750,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-12-10-01-error.log",
+            "hash": "9051d71de888776eb09946dc248bb4af4188ff822316a0385b72372864b90d37"
+        },
+        {
+            "date": 1697104330220,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-12-10-15-error.log",
+            "hash": "5af3225b34982534a813765c4d49620eb120e21d2d7c3d90710e1bffcf774b5a"
+        },
+        {
+            "date": 1697382925449,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-15-10-21-error.log",
+            "hash": "86b8726e1ef75c38e1870877a0f8a34498fcf6cb66054ac32da693a24684549f"
+        },
+        {
+            "date": 1697386630518,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-15-10-22-error.log",
+            "hash": "faffbca42940a60a96373573bc85855a827713d35d1cbf4b5f45763ff0c5f9a8"
+        },
+        {
+            "date": 1697389278016,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-15-10-23-error.log",
+            "hash": "c2021a8868ed7ab3af1bbf16c3fef7586afe61e4926699f569a9e6f178158535"
+        },
+        {
+            "date": 1697395781252,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-16-10-00-error.log",
+            "hash": "dd856d6e3e37ab564c0eb7af7e3541b8282f28ced5962f16f0c95ff3329d1d91"
+        },
+        {
+            "date": 1697396536631,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-16-10-01-error.log",
+            "hash": "9806a233fe275f319ede338d95d0c55e895f67d61339c6e88d33f6871ec1b440"
+        },
+        {
+            "date": 1697400005751,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-16-10-02-error.log",
+            "hash": "df0890bc4235d4b13e24e1c0bf31597d2e89a0bc3998afdc87f29aa8b1d126a3"
+        },
+        {
+            "date": 1697751150211,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-20-10-03-error.log",
+            "hash": "ec062aadf684c9625981eaed1cbb40456e7c57b9a6632984c077d56cf2abba7b"
+        },
+        {
+            "date": 1697406847478,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-16-10-03-error.log",
+            "hash": "8ba0788477601acd1befd596b4681519fe708626cf84f844df6fc0bff95e40a6"
+        },
+        {
+            "date": 1697407426807,
+            "name": "F:\\Next Level Web development\\projects\\nextjs-express-mongoose\\express-mongoose-starter-pack\\logs\\winston\\errors\\YOURAPP_NAME-2023-16-10-04-error.log",
+            "hash": "dcfdc88420250bf6d12dcac2d258f3efda65be5f4dac231407212f91b9284a21"
+        }
+    ],
+    "hashType": "sha256"
+}

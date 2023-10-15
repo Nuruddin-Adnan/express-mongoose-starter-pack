@@ -19,7 +19,7 @@ export type IAdmin = {
 export type AdminModel = {
   isUserExist(
     email: string,
-  ): Promise<Pick<IAdmin, '_id' | 'email' | 'password' | 'role'>>;
+  ): Promise<Pick<IAdmin, '_id' | 'name' | 'email' | 'password' | 'role'>>;
   isPasswordMatched(
     givenPassword: string,
     savedPassword: string,

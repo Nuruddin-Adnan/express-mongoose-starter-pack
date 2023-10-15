@@ -57,7 +57,10 @@ const adminSchema = new Schema<IAdmin, AdminModel>(
 adminSchema.statics.isUserExist = async function (
   email: string,
 ): Promise<IAdmin | null> {
-  return await Admin.findOne({ email }, { email: 1, password: 1, role: 1 });
+  return await Admin.findOne(
+    { email },
+    { name: 1, email: 1, password: 1, role: 1 },
+  );
 };
 
 adminSchema.statics.isPasswordMatched = async function (

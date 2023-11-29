@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const admin_route_1 = require("../modules/admin/admin.route");
 const auth_route_1 = require("../modules/auth/auth.route");
 const user_route_1 = require("../modules/user/user.route");
+const category_route_1 = require("../modules/category/category.route");
 const router = express_1.default.Router();
 const moduleRoutes = [
     {
@@ -20,6 +21,10 @@ const moduleRoutes = [
     {
         path: '/admins',
         route: admin_route_1.AdminRoutes,
+    },
+    {
+        path: '/categories',
+        route: category_route_1.CategoryRoutes,
     },
 ];
 moduleRoutes.forEach(route => router.use(route.path, route.route));

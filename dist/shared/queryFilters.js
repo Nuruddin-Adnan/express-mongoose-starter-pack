@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const queryFilters = (query, req) => {
     let filters = Object.assign({}, query);
     const queries = {};
-    // sort, page, limit -> exclude
+    // sort, page, limit, fields -> exclude
     const excludeFields = ['sort', 'page', 'limit', 'fields'];
     excludeFields.forEach((field) => delete filters[field]);
     // gt, gte, lt, lte

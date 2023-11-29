@@ -8,7 +8,7 @@ const queryFilters = (
   let filters: IFilters = { ...query };
   const queries: IQueries = {};
 
-  // sort, page, limit -> exclude
+  // sort, page, limit, fields -> exclude
   const excludeFields: string[] = ['sort', 'page', 'limit', 'fields'];
   excludeFields.forEach((field: string) => delete filters[field]);
 

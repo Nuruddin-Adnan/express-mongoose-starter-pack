@@ -30,16 +30,17 @@ const getAllCategories = async (
         localField: 'user',
         foreignField: '_id',
         as: 'user',
+        pipeline: [
+          {
+            $project: {
+              name: 1,
+              phoneNumber: 1,
+            },
+          },
+        ],
       },
     },
     { $unwind: '$user' },
-    {
-      $project: {
-        name: 1,
-        'user.name': 1,
-        'user.phoneNumber': 1,
-      },
-    },
   ];
 
   const pipeline = generatePipeline(
@@ -50,7 +51,7 @@ const getAllCategories = async (
     sort,
     limit,
     // {
-    //   $group: { _id: '$name' },
+    //   $group: { _id: '$user.name', count: { $count: {} } },
     // },
   );
 

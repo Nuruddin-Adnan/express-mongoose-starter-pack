@@ -50,9 +50,9 @@ const getAllCategories = async (
     fields,
     sort,
     limit,
-    // {
-    //   $group: { _id: '$user.name', count: { $count: {} } },
-    // },
+    {
+      $group: { _id: '$user.name', count: { $count: {} } },
+    },
   );
 
   const aggregationPipeline: Aggregate<ICategory[]> =

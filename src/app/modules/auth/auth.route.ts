@@ -3,8 +3,25 @@ import validateRequest from '../../middlewares/validateRequest';
 import { UserValidation } from '../user/user.validation';
 import { AuthController } from './auth.controller';
 import { AuthValidation } from './auth.validation';
+import { FileUploadHelper } from '../../../helpers/FileUploadHelper';
 
 const router = express.Router();
+
+router.post(
+  '/file-upload',
+  FileUploadHelper.upload.single('image'),
+  async (req, res) => {
+    try {
+      res.status(200).json(req.file);
+    } catch (error) {
+      res.status(400).json({
+        status: 'fail',
+        message: "Couldn't upload the file",
+        error: `${error}`,
+      });
+    }
+  },
+);
 
 router.post(
   '/signup',

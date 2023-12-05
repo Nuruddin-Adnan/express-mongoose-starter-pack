@@ -13,6 +13,9 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// uploaded file/image
+app.use('/uploads', express.static('src/uploads'));
+
 // Application routes
 app.use('/api/v1', routes);
 
